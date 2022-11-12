@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"Tabs" })
+  <body>
+    <div class="section">
+      <div class="image">
+        <img
+          src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt=""
+        />
+      </div>
+      <div class="tabs">
+        <div class="btn-container">
+          <button class="button live" data-id="step1">Step 1</button>
+          <button class="button" data-id="step2">Step 2</button>
+          <button class="button" data-id="step3">Step 3</button>
+        </div>
+
+        <div class="tabs-content">
+          <div class="content live" id="step1">
+            <h2>Step 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              architecto provident blanditiis voluptas maiores animi officia
+              quas consequuntur error praesentium?
+            </p>
+          </div>
+          <div class="content" id="step2">
+            <h2>Step 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              dicta, nihil dolores itaque fugiat illum aliquid vitae, totam
+              impedit, non eius inventore fugit corrupti sequi.
+            </p>
+          </div>
+          <div class="content" id="step3">
+            <h2>Step 3</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+              eos atque eveniet sint. Officiis eligendi, reprehenderit error
+              odit voluptatem nobis qui cum pariatur quia perspiciatis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>
