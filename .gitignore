@@ -1,0 +1,6 @@
+package-lock.json
+flsStartTemplate/
+dist/
+node_modules/
+Source/
+version.json
